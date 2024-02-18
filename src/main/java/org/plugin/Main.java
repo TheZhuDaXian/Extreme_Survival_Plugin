@@ -50,6 +50,8 @@ public class Main extends JavaPlugin {
         } catch (IOException | IllegalArgumentException e) {
             e.printStackTrace();
         }
+        // 注册 PlayerEventListener 以便监听事件
+        getServer().getPluginManager().registerEvents(new PlayerEventListener(this), this);
         //玩家聊天事件监听器
         getServer().getPluginManager().registerEvents(new PlayerActivityListener(this), this);
         // 注册事件监听器
