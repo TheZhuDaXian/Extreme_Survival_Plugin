@@ -1,0 +1,3 @@
+settings:
+  respawn:
+    cost: 1 # 玩家复活所需的金币数量

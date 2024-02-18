@@ -1,0 +1,14 @@
+name: Extreme_Survival  # 插件名称，请使用你的实际插件名称替代
+main: org.plugin.Main  # 主类的路径，这应该是YourPlugin类的完整包路径
+version: 1.0  # 插件版本
+authors:
+  - TheZhuDaXian  # 插件作者列表
+description: 这是一个关于极限生存的插件。  # 插件的描述
+website: https://space.bilibili.com/323494426 # 可选，你的或者插件的网站
+commands:  # 命令列表
+  respawn:
+    description: 玩家复活命令
+    usage: /<command>
+    aliases: [ress, revive]  # 可选，命令别名
+
+depend: [Vault]  # 插件依赖列表，这意味着Vault插件必须安装才能使你的插件工作
